@@ -64,7 +64,7 @@ function App() {
       {cameras.map((c) => {
         return (
           <div style={{ display: "flex" }}>
-            <video autoPlay controls width={300} height={200}>
+            <video muted autoPlay controls width={300} height={200}>
               <source src={c.link} />
             </video>
           </div>
